@@ -42,8 +42,11 @@ pip install --editable .
 Install other dependencies:
 ```bash
 pip install nltk
+pip install pandas
 pip install pytorch-transformers   # (optional); for GPT-2 fine-tuning
+pip install tensorflow=1.14
 pip install tensorboardX           # (optional); for tensorboard logs
+pip install torch==1.4.0           # overwriting the latest version of pytorch, as installed by fairseq
 ```
 
 ### 'Installing' the unlikelihood module
